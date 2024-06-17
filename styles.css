@@ -13,9 +13,13 @@ body {
     background-repeat: no-repeat; 
 }
 .contenedor {
-    display: flex; /* Utiliza flexbox para alinear elementos en línea */
-    justify-content: center; /* Centra los elementos horizontalmente */
-    margin-top: 20px; /* Margen superior para separar del contenido superior */
+   /* display: flex; /* Utiliza flexbox para alinear elementos en línea */
+   /* justify-content: center; /* Centra los elementos horizontalmente */
+    /*margin-top: 20px; /* Margen superior para separar del contenido superior */
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
 }
 
 .imagen {
@@ -40,7 +44,7 @@ body {
    /*  border-radius: 50%;
     /* width: 400px;*/
 width: 100%;
-border-radius: 15 px;
+border-radius: 15px;
     }
 
 .links .link  {
