@@ -7,7 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-G0L2617L01');
+    </script>
     <div class="container">
         
         <div class="profile">
@@ -18,21 +24,21 @@
      
         <div class="links">
         
-            <a href="https://wa.me/message/L54V24DFP3L6C1" class="link">
-                <img src="Imagenes\whatsapp.png" alt="WhatsApp" class="link-icon">
+            <a href="https://wa.me/message/L54V24DFP3L6C1" class="link" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'WhatsApp' });">
+                <img src="Imagenes/whatsapp.png" alt="WhatsApp" class="link-icon">
                 Whatsapp
             </a>
-            <a href="https://drive.google.com/file/d/1dOMNUMoxUGt2ACkhVLhiUaa8vxpmG0xb/view?usp=drive_link" class="link">
+            <a href="https://drive.google.com/file/d/1dOMNUMoxUGt2ACkhVLhiUaa8vxpmG0xb/view?usp=drive_link" class="link" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Catalogo Varones' });">
                 <img src="Imagenes\CatVarones.png" alt="Enlace 2" class="link-icon">
                 Catálogo Varones
             </a>
-            <a href="https://drive.google.com/file/d/1dOMNUMoxUGt2ACkhVLhiUaa8vxpmG0xb/view?usp=drive_link" class="link">
+            <a href="https://drive.google.com/file/d/1dOMNUMoxUGt2ACkhVLhiUaa8vxpmG0xb/view?usp=drive_link" class="link" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Catalogo Mujeres' });">
                 <img src="Imagenes\CatMujeres.png" alt="Enlace 3" class="link-icon">
                 Catálogo Mujeres
             </a>
-            <a href="https://maps.app.goo.gl/m794xkqgZcMGcxqt5" class="link">
+            <a href="https://maps.app.goo.gl/m794xkqgZcMGcxqt5" class="link" onclick="gtag('event', 'click', { 'event_category': 'Button', 'event_label': 'Ubicacion de la tienda' });">
                 <img src="Imagenes/mapa.png" alt="Enlace 3" class="link-icon">
-               Ubicación de la tienda
+                Ubicación de la tienda
             </a>
        
        
