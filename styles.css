@@ -41,10 +41,11 @@ body {
     
 }
 
-.links .link {
+
+.links .link  {
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: flex-start;
     background-color: #595f66;
     color: white;
     text-decoration: none;
@@ -52,6 +53,14 @@ body {
     margin: 50px 0;
     border-radius: 30px;
     transition: background-color 0.3s;
+    flex-wrap: wrap; /* Añadir flex-wrap para mejor adaptación */
+}
+
+@media (max-width: 600px) {
+    .links .link  {
+        padding: 20px; /* Ajusta según sea necesario */
+        margin: 20px 0; /* Ajusta según sea necesario */
+    }
 }
 
 .links .link:hover {
