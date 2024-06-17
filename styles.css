@@ -4,7 +4,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
     background-color: #f4f4f4;
     background-image: url('Imagenes/fondo.jpg');
@@ -27,19 +26,19 @@ body {
 .container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 110px;
+    padding: 40px;
     border-radius: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 100%;
-    width: 1000px;
+    width: 800px;
 }
 
 .profile-img {
     max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor padre */
-    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    height: 200px; /* Permite que la altura se ajuste automáticamente según el ancho */
+    width: 200px;
     border-radius: 90%;
-    width: 500px;
-    margin-top: 600px;
+    margin-top: 20px;
 }
 
 
@@ -54,14 +53,7 @@ body {
     margin: 60px 0;
     border-radius: 30px;
     transition: background-color 0.3s;
-    flex-wrap: wrap; /* Añadir flex-wrap para mejor adaptación */
-}
-
-@media (max-width: 600px) {
-    .links .link  {
-        padding: 20px; /* Ajusta según sea necesario */
-        margin: 20px 0; /* Ajusta según sea necesario */
-    }
+   
 }
 
 .links .link:hover {
@@ -69,10 +61,10 @@ body {
 }
 
 .links .link-icon {
-    width: 180px; /* Ajusta el tamaño según sea necesario */
-    height: auto;
+    width: 150px; /* Ajusta el tamaño según sea necesario */
+    height: 150px;
     margin-right: 200px;
-    object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
+  
 }
 
 /* Media Queries */
