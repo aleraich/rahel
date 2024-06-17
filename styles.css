@@ -35,12 +35,13 @@ body {
 }
 
 .profile-img {
-    max-width: 70%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor padre */
-    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
-    border-radius: 50%;
-    
-}
-
+   /* max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor padre */
+  /*  height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+   /*  border-radius: 50%;
+    /* width: 400px;*/
+width: 100%;
+border-radius: 15 px;
+    }
 
 .links .link  {
     display: flex;
@@ -49,8 +50,8 @@ body {
     background-color: #595f66;
     color: white;
     text-decoration: none;
-    padding: 100px;
-    margin: 50px 0;
+    padding: 10px;
+    margin: 20px 0;
     border-radius: 30px;
     transition: background-color 0.3s;
     flex-wrap: wrap; /* Añadir flex-wrap para mejor adaptación */
