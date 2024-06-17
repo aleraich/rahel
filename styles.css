@@ -1,6 +1,6 @@
 body {
     font-family: 'Georgia', serif;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,8 +35,8 @@ body {
 
 .profile-img {
     max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor padre */
-    height: 200px; /* Permite que la altura se ajuste automáticamente según el ancho */
-    width: 200px;
+    height: 400px; /* Permite que la altura se ajuste automáticamente según el ancho */
+    width: 400px;
     border-radius: 90%;
     margin-top: 20px;
 }
@@ -62,29 +62,8 @@ body {
 
 .links .link-icon {
     width: 150px; /* Ajusta el tamaño según sea necesario */
-    height: 150px;
+    height: auto;
     margin-right: 200px;
-  
+    object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
 }
 
-/* Media Queries */
-@media (max-width: 600px) {
-    .container {
-        padding: 10px;
-    }
-    
-    .profile-img {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .links .link {
-        padding: 8px;
-        margin: 8px 0;
-    }
-
-    .links .link-icon {
-        width: 20px; /* Tamaño reducido para pantallas más pequeñas */
-        margin-right: 6px;
-    }
-}
