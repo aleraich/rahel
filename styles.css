@@ -35,8 +35,8 @@ body {
 
 .profile-img {
     max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor padre */
-    height: 400px; /* Permite que la altura se ajuste automáticamente según el ancho */
-    width: 400px;
+    height: 200px; /* Permite que la altura se ajuste automáticamente según el ancho */
+    width: 200px;
     border-radius: 90%;
     margin-top: 20px;
 }
@@ -50,7 +50,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 10px;
-    margin: 60px 0;
+    margin: 30px 0;
     border-radius: 30px;
     transition: background-color 0.3s;
    
@@ -61,9 +61,9 @@ body {
 }
 
 .links .link-icon {
-    width: 150px; /* Ajusta el tamaño según sea necesario */
+    width: 80px; /* Ajusta el tamaño según sea necesario */
     height: auto;
-    margin-right: 200px;
+    margin-right: 40px;
     object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
 }
 
