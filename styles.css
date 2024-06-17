@@ -48,7 +48,7 @@ body {
     background-color: #595f66;
     color: white;
     text-decoration: none;
-    padding: 40px;
+    padding: 100px;
     margin: 50px 0;
     border-radius: 30px;
     transition: background-color 0.3s;
@@ -59,7 +59,7 @@ body {
 }
 
 .links .link-icon {
-    width: 60px; /* Ajusta el tamaño según sea necesario */
+    width: 150px; /* Ajusta el tamaño según sea necesario */
     height: auto;
     margin-right: 150px;
     object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
