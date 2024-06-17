@@ -38,7 +38,7 @@ body {
     height: 200px; /* Permite que la altura se ajuste automáticamente según el ancho */
     width: 200px;
     border-radius: 90%;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -63,7 +63,7 @@ body {
 .links .link-icon {
     width: 80px; /* Ajusta el tamaño según sea necesario */
     height: auto;
-    margin-right: 40px;
+    margin-right: 30px;
     object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
 }
 
