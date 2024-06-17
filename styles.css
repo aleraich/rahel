@@ -1,0 +1,88 @@
+body {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-image: url('Imagenes/fondo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.contenedor {
+    display: flex; /* Utiliza flexbox para alinear elementos en línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-top: 20px; /* Margen superior para separar del contenido superior */
+}
+
+.imagen {
+    width: 50px; /* Ancho deseado para las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin: 0 10px; /* Margen horizontal entre cada imagen */
+    cursor: pointer; /* Cambia el cursor a mano al pasar sobre las imágenes */
+}
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    width: 800px;
+}
+
+.profile-img {
+    max-width: 70%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor padre */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    border-radius: 50%;
+    
+}
+
+.links .link {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: #595f66;
+    color: white;
+    text-decoration: none;
+    padding: 40px;
+    margin: 50px 0;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.links .link:hover {
+    background-color: #4f6277;
+}
+
+.links .link-icon {
+    width: 60px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-right: 150px;
+    object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .links .link {
+        padding: 8px;
+        margin: 8px 0;
+    }
+
+    .links .link-icon {
+        width: 20px; /* Tamaño reducido para pantallas más pequeñas */
+        margin-right: 6px;
+    }
+}
