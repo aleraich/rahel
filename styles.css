@@ -8,56 +8,41 @@ body {
     margin: 0;
     background-color: #f4f4f4;
     background-image: url('Imagenes/fondo.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
-
 .contenedor {
-    display: flex;
-    /* Utiliza flexbox para alinear elementos en línea */
-    justify-content: center;
-    /* Centra los elementos horizontalmente */
-    margin-top: 20px;
-    /* Margen superior para separar del contenido superior */
-
+    display: flex; /* Utiliza flexbox para alinear elementos en línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-top: 20px; /* Margen superior para separar del contenido superior */
 }
 
 .imagen {
-    width: 50px;
-    /* Ancho deseado para las imágenes */
-    height: auto;
-    /* Altura automática para mantener la proporción */
-    margin: 0 10px;
-    /* Margen horizontal entre cada imagen */
-    cursor: pointer;
-    /* Cambia el cursor a mano al pasar sobre las imágenes */
+    width: 50px; /* Ancho deseado para las imágenes */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin: 0 10px; /* Margen horizontal entre cada imagen */
+    cursor: pointer; /* Cambia el cursor a mano al pasar sobre las imágenes */
 }
-
 .container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 110px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 100%;
-    width: 75vw;
-    max-width: 1000px;
-    min-width: 320px;
-    margin: auto;
-
+    max-width: 50%;
+    width: 800px;
 }
 
 .profile-img {
-    /* max-width: 100%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor padre */
-    /*  height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
-    /*  border-radius: 50%;
-    /* width: 400px;*/
-    width: 100%;
-    border-radius: 15 px;
+    max-width: 50%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor padre */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+    border-radius: 50%;
+    width: 500px;
 }
 
-.links .link {
+
+.links .link  {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -68,16 +53,13 @@ body {
     margin: 20px 0;
     border-radius: 30px;
     transition: background-color 0.3s;
-    flex-wrap: wrap;
-    /* Añadir flex-wrap para mejor adaptación */
+    flex-wrap: wrap; /* Añadir flex-wrap para mejor adaptación */
 }
 
 @media (max-width: 600px) {
-    .links .link {
-        padding: 20px;
-        /* Ajusta según sea necesario */
-        margin: 20px 0;
-        /* Ajusta según sea necesario */
+    .links .link  {
+        padding: 20px; /* Ajusta según sea necesario */
+        margin: 20px 0; /* Ajusta según sea necesario */
     }
 }
 
@@ -86,12 +68,10 @@ body {
 }
 
 .links .link-icon {
-    width: 150px;
-    /* Ajusta el tamaño según sea necesario */
+    width: 150px; /* Ajusta el tamaño según sea necesario */
     height: auto;
     margin-right: 150px;
-    object-fit: contain;
-    /* Asegura que la imagen mantenga sus proporciones */
+    object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
 }
 
 /* Media Queries */
@@ -99,20 +79,19 @@ body {
     .container {
         padding: 10px;
     }
-
+    
     .profile-img {
         width: 80px;
         height: 80px;
     }
-
+    
     .links .link {
         padding: 8px;
         margin: 8px 0;
     }
 
     .links .link-icon {
-        width: 20px;
-        /* Tamaño reducido para pantallas más pequeñas */
+        width: 20px; /* Tamaño reducido para pantallas más pequeñas */
         margin-right: 6px;
     }
 }
